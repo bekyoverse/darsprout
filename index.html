@@ -864,7 +864,7 @@
                 <div class="process-step fade-in">
                     <div class="process-number">02</div>
                     <h4>Strategy</h4>
-                    <p>AI-powered insights</p>
+                    <p>Creative planning</p>
                 </div>
                 <div class="process-step fade-in">
                     <div class="process-number">03</div>
@@ -937,43 +937,32 @@
                     </div>
                 </div>
                 <div class="contact-form fade-in">
-    <form action="https://formsubmit.co/studio@darsprout.com" method="POST">
-
-        <!-- Disable Captcha -->
-        <input type="hidden" name="_captcha" value="false">
-
-        <div class="form-group">
-            <input type="text" name="name" placeholder="Your Name *" required>
-        </div>
-
-        <div class="form-group">
-            <input type="email" name="email" placeholder="Email Address *" required>
-        </div>
-
-        <div class="form-group">
-            <input type="tel" name="phone" placeholder="Phone Number">
-        </div>
-        <div class="form-group">
-            <select name="service" required>
-                <option value="">What do you need? *</option>
-                <option value="Weekly Content Partner">Weekly Content Partner</option>
-                <option value="Monthly Retainer">Monthly Retainer</option>
-                <option value="Enterprise Solutions">Enterprise Solutions</option>
-                <option value="One-Time Project">One-Time Project</option>
-                <option value="Just Exploring">Just Exploring</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <textarea name="message" placeholder="Tell us about your project..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary" style="width: 100%;">
-            Send Message
-        </button>
-
-    </form>
-</div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">What do you need? *</option>
+                                <option value="weekly">Weekly Content Partner</option>
+                                <option value="monthly">Monthly Retainer</option>
+                                <option value="enterprise">Enterprise Solutions</option>
+                                <option value="project">One-Time Project</option>
+                                <option value="consultation">Just Exploring</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -1013,14 +1002,6 @@
                 }
             });
         });
-
-        // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your interest! We will contact you within 24 hours.');
-            this.reset();
-        });
     </script>
 </body>
 </html>
-
